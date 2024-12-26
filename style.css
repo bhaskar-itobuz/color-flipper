@@ -1,0 +1,54 @@
+.buttons {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+}
+
+.btn {
+    width: 100px;
+    padding: 20px;
+}
+
+.aqua {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    &:hover {
+        background-color: aqua;
+        cursor: pointer;
+    }
+}
+
+.gray {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    &:hover {
+        background-color: gray;
+        cursor: pointer;
+    }
+}
+
+.blue {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    &:hover {
+        background-color: blue;
+        cursor: pointer;
+    }
+}
+
+.green {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    &:hover {
+        background-color: green;
+        cursor: pointer;
+    }
+}
